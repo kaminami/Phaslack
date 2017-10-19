@@ -1,5 +1,5 @@
 # Phaslack
-A tiny Slack client.
+A tiny Slack client for Pharo Smalltalk.
 
 # prerequisites
 NeoJSON, Zinc-WebSocket
