@@ -5,7 +5,8 @@ A tiny Slack client.
 NeoJSON, Zinc-WebSocket
 
 # examples
-```
+
+```smalltalk
 | user token client |
 user := 'phaslackbot'.
 token := 'your_token'. 
