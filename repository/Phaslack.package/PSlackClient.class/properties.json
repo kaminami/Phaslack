@@ -1,0 +1,15 @@
+{
+	"category" : "Phaslack",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"token",
+		"user" ],
+	"name" : "PSlackClient",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+constants
+host
+	^ 'slack.com'

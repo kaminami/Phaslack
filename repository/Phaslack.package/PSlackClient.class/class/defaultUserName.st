@@ -1,0 +1,3 @@
+constants
+defaultUserName
+	^ 'phaslack'

@@ -1,0 +1,2 @@
+event handling-hook
+handleSubteamSelfRemoved: values

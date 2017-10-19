@@ -1,0 +1,14 @@
+{
+	"category" : "Phaslack",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"values" ],
+	"name" : "PSlackResponse",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

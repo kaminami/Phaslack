@@ -1,0 +1,15 @@
+{
+	"category" : "Phaslack",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"client",
+		"block" ],
+	"name" : "PSlackBlockEvaluator",
+	"pools" : [
+		 ],
+	"super" : "PSlackRtmHandler",
+	"type" : "normal" }

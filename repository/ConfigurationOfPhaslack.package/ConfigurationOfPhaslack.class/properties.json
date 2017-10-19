@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfPhaslack",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfPhaslack",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
