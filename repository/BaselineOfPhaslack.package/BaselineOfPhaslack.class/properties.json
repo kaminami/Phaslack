@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfPhaslack",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfPhaslack",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

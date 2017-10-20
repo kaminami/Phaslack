@@ -1,8 +1,30 @@
 # Phaslack
 A tiny Slack client for Pharo Smalltalk.
 
-# prerequisites
-NeoJSON, Zinc-WebSocket
+## Supported Smalltalk Version
+
+Pharo Smalltalk 5.0, 6.0
+
+## Installation
+
+```smalltalk
+Metacello new
+    baseline: 'Phaslack';
+    repository: 'github://kaminami/Phaslack/repository';
+    load.
+```
+
+Local Reporsitory
+
+```smalltalk
+| pathToPackageDirectory |
+"edit to match the path to your chosen package directory"
+pathToPackageDirectory := './repository/' asFileReference asAbsolute fullName.
+Metacello new
+  baseline: 'Phaslack';
+  repository: 'filetree://', pathToPackageDirectory;
+  load.
+```
 
 # examples
 
