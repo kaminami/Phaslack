@@ -17,7 +17,13 @@ Metacello new
 Local Reporsitory
 
 ```smalltalk
-| pathToPackageDirectory |"edit to match the path to your chosen package directory"pathToPackageDirectory := './repository/' asFileReference asAbsolute fullName.Metacello new  baseline: 'Phaslack';  repository: 'filetree://', pathToPackageDirectory;  load.
+| pathToPackageDirectory |
+"edit to match the path to your chosen package directory"
+pathToPackageDirectory := './repository/' asFileReference asAbsolute fullName.
+Metacello new
+  baseline: 'Phaslack';
+  repository: 'filetree://', pathToPackageDirectory;
+  load.
 ```
 
 # examples
