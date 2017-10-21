@@ -26,7 +26,7 @@ Metacello new
   load.
 ```
 
-# examples
+# Examples
 
 ```smalltalk
 | user token client |
