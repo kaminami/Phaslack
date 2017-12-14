@@ -8,5 +8,4 @@ chatDeleteMessage: messageDict channel: channel options: options
 		yourself.
 						
 	res := self post: 'chat.delete' withValues: values.
-	Delay forMilliseconds: 500.
 	^ res

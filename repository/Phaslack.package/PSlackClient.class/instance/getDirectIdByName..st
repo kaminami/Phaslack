@@ -1,13 +1,10 @@
 convenience
 getDirectIdByName: userName
-	| results ims |
+	| results ims userId im |
 	results := self imListOptions: Dictionary new.
-	ims := results values at:'ims' ifAbsent:[ #() ].
+	ims := results values at:'ims' ifAbsent:[].
+	ims isEmptyOrNil ifTrue: [ ^ nil ].
 	
-	ims ifNotEmpty: [
-		| userId im |
-		userId := self getUserIdByName: userName. 
-		im := ims detect:[:v | (v at: 'user' ifAbsent: [ nil ]) = userId ] ifNone:[ nil ]. 
-		im ifNotNil:[ ^ im at:'id' ifAbsent:[nil] ].
-	].
-	^ nil
+	userId := self getUserIdByName: userName. 
+	im := ims detect:[:v | (v at: 'user' ifAbsent: [ nil ]) = userId ] ifNone:[ ^ nil ]. 
+	^ im at:'id' ifAbsent:[ ].
