@@ -1,17 +1,16 @@
 {
-	"category" : "Phaslack",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Phaslack",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"url",
 		"handler",
 		"webSocket",
-		"process" ],
+		"process"
+	],
 	"name" : "PSlackRtmReceiver",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

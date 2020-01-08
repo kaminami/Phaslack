@@ -11,7 +11,7 @@ handleMessage: values
 	userName := (infoRes valueAt: 'user') at: 'name'.
 	
 	src := values at: 'text'.
-	result := [ Compiler evaluate: src trim ] on: Error do: [:ex | ex message ].
+	result := [ Smalltalk compiler evaluate: src trim ] on: Error do: [:ex | ex message ].
 	
 	resStr := '@{1}
 {2}' format: {userName. result }.

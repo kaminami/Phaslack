@@ -1,14 +1,11 @@
 {
-	"category" : "Phaslack",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "PSlackSimpleMessageLogger",
-	"pools" : [
-		 ],
 	"super" : "PSlackRtmHandler",
-	"type" : "normal" }
+	"category" : "Phaslack",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PSlackSimpleMessageLogger",
+	"type" : "normal"
+}

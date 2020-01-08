@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"handleMessage:" : "minami 6/11/2016 12:24" } }
+		"handleMessage:" : "minami 6/11/2016 12:24"
+	},
+	"class" : { }
+}
