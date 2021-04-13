@@ -2,7 +2,6 @@ api-im
 imHistoryChannel: channel Options: options
 	| values res |
 	values := options copy
-		at: 'token' put: self token;
 		at: 'channel' put: channel;
 		yourself.
 						
